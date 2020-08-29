@@ -13,6 +13,20 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+<<<<<<< HEAD
+=======
+  },
+  data() {
+    return {
+      age: 20
+    }
+  },
+  mounted() {
+    let url = "https://www.easy-mock.com/mock/5f49c15e9279d93141e87099/example/restful/:id/list";
+    axios.get(url).then(() => {
+
+    })
+>>>>>>> 40b89afe2134d42c82e62ab3005fdf339b7985c9
   }
 }
 </script>
