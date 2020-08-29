@@ -13,8 +13,6 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-<<<<<<< HEAD
-=======
   },
   data() {
     return {
@@ -26,7 +24,6 @@ export default {
     axios.get(url).then(() => {
 
     })
->>>>>>> 40b89afe2134d42c82e62ab3005fdf339b7985c9
   }
 }
 </script>
