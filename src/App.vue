@@ -5,18 +5,20 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 
 export default {
   name: 'App',
   components: {
-    axios,
+    // axios,
   },
   data() {
     return {
     }
   },
   mounted() {
+    // let url = "",
+    
   }
 }
 </script>
