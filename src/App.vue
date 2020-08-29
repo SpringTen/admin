@@ -6,6 +6,7 @@
 
 <script>
 // import axios from 'axios'
+import storage from './storage/index'
 
 export default {
   name: 'App',
@@ -18,7 +19,10 @@ export default {
   },
   mounted() {
     // let url = "",
-    
+    // storage.setItem('a', 1);
+    // storage.setItem('abc', {'a': 1}, 'user');
+    // storage.clear('admin')
+    storage.clear('c','user')
   }
 }
 </script>
