@@ -1,4 +1,4 @@
-# admin
+# mall
 
 ## Project setup
 ```
