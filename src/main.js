@@ -9,7 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import store from './store'
 import App from './App.vue'
 // import env from './env'
-// mock开关
+// mock开关13451930204
 const mock = false;
 if(mock){
   require('./mock/api');
